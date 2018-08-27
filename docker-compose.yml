@@ -1,0 +1,11 @@
+version: '2'
+services:
+    tomcat:
+        image: tomcat_demo
+        container_name: tomcat_demo
+        #restart: always
+        #volumes:
+        #    - /home/latelee/docker/tomcat_app/test/test:/usr/local/tomcat/webapps
+        ports:
+            - "8080:8080"
+
