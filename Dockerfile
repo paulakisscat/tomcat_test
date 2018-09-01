@@ -1,4 +1,4 @@
-FROM latelee/tomcat
+FROM docker.io/tomcat
 
 LABEL maintainer Late Lee(li@latelee.org)
 
