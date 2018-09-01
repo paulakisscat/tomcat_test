@@ -1,4 +1,4 @@
-FROM docker.io/tomcat
+FROM tomcat
 
 LABEL maintainer paulakisscat(paulakisscat@gmail.com)
 
